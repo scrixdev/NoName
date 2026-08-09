@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Kaz Bâti</title>
+<meta name="description" content="Contactez Kaz Bâti à Cayenne pour un devis gratuit sous 48h.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="index.html" class="logo">Kaz<span>·</span>Bâti</a>
+    <nav class="nav-links">
+      <a href="index.html">Accueil</a>
+      <a href="prestations.html">Prestations</a>
+      <a href="realisations.html">Réalisations</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <a href="contact.html" class="nav-cta">Demander un devis</a>
+    <button class="menu-toggle" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<div class="page-header-shell">
+  <div class="page-header">
+    <img class="page-header-media" src="images/contact-hero.jpg" alt="Équipe Kaz Bâti" onerror="this.style.background='linear-gradient(135deg,#22332a,#171f1a)'; this.removeAttribute('src');">
+    <div class="page-header-scrim"></div>
+    <div class="page-header-body">
+      <span class="eyebrow">Contact</span>
+      <h1>Parlons de<br>votre projet</h1>
+      <p>Décrivez votre projet, nous revenons vers vous sous 48h avec un devis détaillé.</p>
+    </div>
+  </div>
+</div>
+
+<section class="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <div class="info-block">
+        <span class="eyebrow">Adresse</span>
+        <p>12 Rue des Bâtisseurs, 97300 Cayenne, Guyane</p>
+      </div>
+      <div class="info-block">
+        <span class="eyebrow">Téléphone</span>
+        <a href="tel:+594594000000">+594 594 00 00 00</a>
+      </div>
+      <div class="info-block">
+        <span class="eyebrow">E-mail</span>
+        <a href="mailto:contact@kazbati.gf">contact@kazbati.gf</a>
+      </div>
+      <div class="info-block">
+        <span class="eyebrow">Horaires</span>
+        <p>Lun–Ven, 7h30–17h00</p>
+      </div>
+      <div class="info-block">
+        <span class="eyebrow">Zone d'intervention</span>
+        <p>Cayenne, Matoury, Rémire-Montjoly, Kourou, Macouria</p>
+      </div>
+    </div>
+    <form id="contact-form">
+      <div class="field">
+        <label for="name">Nom complet</label>
+        <input id="name" name="name" type="text" required>
+      </div>
+      <div class="field">
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" required>
+      </div>
+      <div class="field">
+        <label for="phone">Téléphone</label>
+        <input id="phone" name="phone" type="tel">
+      </div>
+      <div class="field">
+        <label for="service">Type de projet</label>
+        <select id="service" name="service">
+          <option>Construction neuve</option>
+          <option>Rénovation</option>
+          <option>Charpente / toiture</option>
+          <option>Second œuvre</option>
+          <option>Autre</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="project">Votre projet</label>
+        <textarea id="project" name="project" required placeholder="Décrivez votre projet, la localisation, les délais souhaités..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Envoyer la demande</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="logo" style="font-size:1.3rem;">Kaz<span>·</span>Bâti</div>
+      <div class="footer-links">
+        <a href="prestations.html">Prestations</a>
+        <a href="realisations.html">Réalisations</a>
+        <a href="contact.html">Contact</a>
+        <a href="mentions-legales.html">Mentions légales</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Kaz Bâti — Artisan BTP, Cayenne, Guyane.</p>
+      <p>12 Rue des Bâtisseurs, 97300 Cayenne</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
